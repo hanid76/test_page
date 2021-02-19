@@ -1,0 +1,4 @@
+IP_name,Data,__count,__count_start,__count_end
+SYSMMU,Test Case,80,0,80
+SYSMMU,Functional Coverage,20,80,100
+SYSMMU,Code Coverage,30,100,130
