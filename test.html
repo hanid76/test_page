@@ -30,7 +30,10 @@
   "encoding": {
     "x": {"field": "IP_name","title":""},
     "y": {"aggregate": "sum", "field": "Value", "title":""},
-    "color": {"field": "Index","title":""}
+    "color": {"field": "Index","type":"nominal", "scale": {
+        "domain": ["Test Case", "Functional Coverage", "Code Coverage"],
+        "scheme": "blues"},
+        "title":""}
   }
 
       };
