@@ -1,4 +1,1 @@
-[{"IP_name":"SYSMMU","Test Case":80,"Functional Coverage":20,"Code Coverage":30},
- {"IP_name":"UFSHCI","Test Case":20,"Functional Coverage":5,"Code Coverage":10},
- {"IP_name":"CMU","Test Case":100,"Functional Coverage":50,"Code Coverage":30}
-]
+[{"IP_name":"SYSMMU","Test Case":80,"Functional Coverage":20,"Code Coverage":30},{"IP_name":"UFSHCI","Test Case":20,"Functional Coverage":5,"Code Coverage":10},{"IP_name":"CMU","Test Case":100,"Functional Coverage":50,"Code Coverage":30}]
