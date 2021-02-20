@@ -1,7 +1,7 @@
 [
-  {"IP_name":" ㅡㅡㅡ","Value":0,"Index":"Test Case"},
-  {"IP_name":" ㅡㅡㅡ","Value":0,"Index":"Functional Coverage"},
-  {"IP_name":" ㅡ","Value":0,"Index":"Code Coverage"},
+  {"IP_name":" -----","Value":0,"Index":"Test Case"},
+  {"IP_name":" -----","Value":0,"Index":"Functional Coverage"},
+  {"IP_name":" -----","Value":0,"Index":"Code Coverage"},
   {"IP_name":" 기준","Value":100,"Index":"Test Case"},
   {"IP_name":" 기준","Value":50,"Index":"Functional Coverage"},
   {"IP_name":" 기준","Value":50,"Index":"Code Coverage"},
