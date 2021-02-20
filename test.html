@@ -28,16 +28,89 @@
       var vlSpec = {
 
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "https://hanid76.github.io/test_page/data.json"},
-  "mark": "bar",
-  "encoding": {
-    "x": {"field": "IP_name","title":"","sort":["기준","-----"]},
-    "y": {"aggregate": "sum", "field": "Value", "title":""},
-    "color": {"field": "Index","type":"nominal", "scale": {
-        "domain": ["Test Case", "Functional Coverage", "Code Coverage"],
-        "scheme": "blues"},
-        "title":""}
-  }
+  "layer": [{
+    "data": {"url": "https://hanid76.github.io/test_page/data.json"},
+    "layer": [{
+      "mark": "bar",
+      "encoding": {
+        "x": {"field": "IP_name","title":"","sort":["기준","-----"]},
+        "y": {"aggregate": "sum", "field": "Value", "title":""},
+        "color": {
+          "field": "Index",
+          "type":"nominal", 
+          "scale": {
+            "domain": ["Test Case", "Functional Coverage", "Code Coverage"],
+            "scheme": "blues"
+          },
+          "title":""
+        }
+      }
+    }]
+    }, {
+      "data": {
+        "values": [{}]
+      },
+      "encoding": {
+        "y": {"datum": 70}
+      },
+      "layer": [{
+        "mark": "rule"
+      }, {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "bottom",
+          "color": "green",
+          "dx": -2,
+          "dy": -2,
+          "x": "width",
+          "text": "Alpha"
+        }
+      }]
+    }, {
+      "data": {
+        "values": [{}]
+      },
+      "encoding": {
+        "y": {"datum": 150}
+      },
+      "layer": [{
+        "mark": "rule"
+      }, {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "bottom",
+          "color": "green",
+          "dx": -2,
+          "dy": -2,
+          "x": "width",
+          "text": "Beta"
+        }
+      }]
+    }, {
+      "data": {
+        "values": [{}]
+      },
+      "encoding": {
+        "y": {"datum": 200}
+      },
+      "layer": [{
+        "mark": "rule"
+      }, {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "bottom",
+          "color": "green",
+          "dx": -2,
+          "dy": -2,
+          "x": "width",
+          "text": "Final"
+        }
+      }]
+    }
+  ]
 
       };
 
